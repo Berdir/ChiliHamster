@@ -1,0 +1,14 @@
+[Authentication]
+; URL to the chiliproject installation, including a trailing slash.
+site = '';
+; Username or API key.
+user = '';
+; The password when using a username, ignored when using an api key.
+password = '';
+
+[Chili]
+; Your user id.
+user_id = 3;
+
+; The activity id to use when reporting time.
+const activity_id = 9;
