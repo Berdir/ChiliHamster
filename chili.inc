@@ -11,7 +11,7 @@ function config_get($key, $default = NULL) {
       $properties = parse_ini_file($config_file_path);
     }
   }
-  if (isset($properties[$key])) {
+  if (!empty($properties[$key])) {
     return $properties[$key];
   }
 
